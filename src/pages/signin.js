@@ -1,12 +1,10 @@
 import React from "react";
-import ScrollToTop from "../components/ScrollToTop";
-import SignIn from "../components/Signin";
+import Form from "../components/Signin";
 
 const SigninPage = () => {
   return (
     <>
-      <ScrollToTop />
-      <SignIn />
+      <Form />
     </>
   );
 };

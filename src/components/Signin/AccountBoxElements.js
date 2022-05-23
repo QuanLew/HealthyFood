@@ -7,12 +7,12 @@ export const BoxContainer = styled.div`
   display: flex;
   flex-direction: column;
   border-radius: 17px;
-  background-color: #fff;
+  background-color: rgba(255, 255, 255,0.9);
   opacity: 0.9;
-  box-shadow: 0 0 2px rgba(15, 15, 15, 0.28);
+  box-shadow: 0 0 2px rgba(255, 255, 255, 0.8);
   position: relative;
   overflow: hidden;
-  top: 150px;
+  top: 50%;
 `;
 
 export const TopContainer = styled.div`

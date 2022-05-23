@@ -40,7 +40,7 @@ const Navbar = ({ toggle }) => {
         <Nav scrollNav={scrollNav}>
           <NavbarContainer>
             <NavLogo to="/" onClick={toggleHome}>
-              <h1>Hey</h1>
+              <h1>Welcome</h1>
             </NavLogo>
             <MobileIcon onClick={toggle}>
               <FaBars />
@@ -84,7 +84,7 @@ const Navbar = ({ toggle }) => {
                 </NavLinks>
               </NavItem>
               <NavItem>
-                <NavLinks
+                {/*<NavLinks
                   to="signup"
                   smooth={true}
                   duration={500}
@@ -93,12 +93,9 @@ const Navbar = ({ toggle }) => {
                   offset={-80}
                 >
                   Sign Up
-                </NavLinks>
+  </NavLinks>*/}
               </NavItem>
             </NavMenu>
-            <NavBtn>
-              <NavBtnLink to="/signin">Sign In</NavBtnLink>
-            </NavBtn>
           </NavbarContainer>
         </Nav>
       </IconContext.Provider>
